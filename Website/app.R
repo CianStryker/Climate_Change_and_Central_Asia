@@ -8,7 +8,7 @@ library(tidyverse)
 ui <- fluidPage( theme = shinytheme("united"),
                  
                  navbarPage(
-                     title = "Studying Climate Change in Central Asia",
+                     title = "Climate Change in Central Asia",
                      
                      tabPanel(
                          
@@ -253,7 +253,11 @@ ui <- fluidPage( theme = shinytheme("united"),
                                 
                                 tags$p("All analyses and maps were created with ArcGIS Pro. The Modis Data used in this project was taken from USGS (United States Geography Services)", a(href = "https://earthexplorer.usgs.gov/", "Earth Explorer")),
                                 
-                                tags$p("Here is the link to my Github rep for this website:", a(href = "https://github.com/CianStryker/Climate_Change_and_Central_Asia", "https://github.com/CianStryker/Climate_Change_and_Central_Asia"))
+                                tags$p("Here is the link to my Github rep for this website:", a(href = "https://github.com/CianStryker/Climate_Change_and_Central_Asia", "https://github.com/CianStryker/Climate_Change_and_Central_Asia")),
+                                
+                                tags$h1("Note"),
+                                
+                                tags$p("If you'd prefer to view this report in a pdf format or would like to download a copy, please download the pdf here:", downloadLink("downloadPDF", "Download Link"))
                              ),
                              
                              column(width = 3)
@@ -566,6 +570,14 @@ server <- function(input, output) {
         # Here I make sure to not delete that file.
         
     }, deleteFile = FALSE)
+    
+    
+    output$downloadPDF <- downloadHandler(
+        filename = "Stryker_Prosocial_Behavior.pdf",
+        content = function(file) {
+            file.copy("www/Climate_Change_in_Central_Asia.pdf", file)
+        }
+    )
 
 
     
