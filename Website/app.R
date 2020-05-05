@@ -357,7 +357,7 @@ server <- function(input, output) {
         # Calling my file from local storage in Shiny.
         
         filename <- normalizePath(file.path("./Images",
-                                            paste("Photo_5.png")))
+                                            paste("Photo_5.PNG")))
         
         # Return a list containing the filename and alt text.
         
@@ -397,7 +397,7 @@ server <- function(input, output) {
         # Calling my file from local storage in Shiny.
         
         filename <- normalizePath(file.path("./Images",
-                                            paste("Photo_7.png")))
+                                            paste("Photo_7.PNG")))
         
         # Return a list containing the filename and alt text.
         
