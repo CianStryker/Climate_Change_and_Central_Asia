@@ -6,4 +6,5 @@ The website itself can be found here: https://cianstryker.shinyapps.io/Climate_C
 
 # Repo Guide
  - All code for the shinyapp can be found under the "Website" folder. 
+ - A pdf version of this paper can be found in the main repo under the name "Climate_Change_in_Central_Asia.pdf".
 
