@@ -22,7 +22,7 @@ ui <- fluidPage( theme = shinytheme("united"),
                                     
                                     tags$h1("Studying Climate Change's Effect on Central Asia using Modis NDVI Data",  align="center"),
                                     
-                                    tags$p("By: Cian Stryker", align = "center"), 
+                                    tags$h4("By: Cian Stryker", align = "center"), 
                                     
                                     tags$br()
                                     ),
