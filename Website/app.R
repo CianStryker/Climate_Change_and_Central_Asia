@@ -32,16 +32,16 @@ ui <- fluidPage( theme = shinytheme("united"),
                          
                          fluidRow(
                              
-                             column(width = 2),
+                             column(width = 3),
                              
-                             column(width = 8,
+                             column(width = 6,
                                     
                                     imageOutput(outputId = "Photo_1", width = "100%", height = "110%"),
                                     
                                     tags$br(),
                                     
                                     tags$p("Central Asia is a crossroads of the world. The main thoroughfare of the ancient Silk Road and a colonial battleground between the Russian and British Empires, it is now the first step of China’s Belt and Road initiative which is a global infastrucutral investment strategy aimed at shifting the world’s economic capital to Beijing. After the demise of the ancient Silk Road and the more recent dissolution of the Soviet Union, the region has fallen into a period of economic downturn and fragile political stability. Central Asia is economically dependent on agriculture, particularly cotton production. Ironically, the region is not particularly well suited to this industry. Because of its reliance on agriculture, Central Asia is more susceptible to the effects of climate change than regions that enjoy higher political stability and tat are less economically reliant on agriculture.  The preliminary effects of climate change in the region are already apparent and can be observed using satellite imaging techniques."),
-                                    
+                                     
                                     tags$p("Kyrgyzstan and Tajikistan are mountainous. They provide water for the entire region when the snows melt in the spring. The downstream countries of Uzbekistan, Turkmenistan, and Kazakhstan use this runoff to support their large-scale agricultural industries. Much of Kazakhstan is steppe, and a large portion of Uzbekistan and Turkmenistan is desert. This means that Kazakhstan, Uzbekistan, and Turkmenistan rely on the water from Tajikistan and Kyrgyzstan to irrigate what little fertile land they have. Reliance on agriculture and water from upstream countries has created an unstable situation exacerbated by climate change that threatens to desiccate arable land and reduce future water flow from snow melt. The effects of climate change in Central Asia are already clearly visible in Modis NDVI satellite data."),
                                     
                                     tags$p("Modis, or Moderate Resolution Imaging Spectroradiometer, satellites were launched in 1999 and 2002 to provide imaging for the entire Earth. They describe large-scale dynamics. Because of its coarse resolution and frequency of collection, Modis data are best suited to describe huge geographic areas. NDVI or the Normalized Difference Vegetation Index, is an indicator that can be used to measure the existence and health of vegetation. Everything on Earth reflects light but substances differ which types of light are reflected in which amounts. Specifically, the ratio of reflected red and infrared light can be used to indicate whether an 500m x 500m area is predominantly vegetation and if so, its relative level of health."),
@@ -132,7 +132,7 @@ ui <- fluidPage( theme = shinytheme("united"),
                              ),
                                 
                                     
-                            column(width = 2)
+                            column(width = 3)
                                     
                              ),
                              
@@ -144,13 +144,13 @@ ui <- fluidPage( theme = shinytheme("united"),
 
                                     tags$h4("Aral Sea: 2005", align = "center"),
                                     
-                                    imageOutput(outputId = "Photo_10", width = "100%", height = "100%"),
+                                    imageOutput(outputId = "Photo_10", width = "100%", height = "80%"),
                     
                                     tags$br(),
                                     
                                     tags$h4("Aral Sea: 2018", align = "center"),
                                     
-                                    imageOutput(outputId = "Photo_11", width = "100%", height = "100%"),
+                                    imageOutput(outputId = "Photo_11", width = "100%", height = "80%"),
 
                                     tags$br()
                                     
@@ -161,9 +161,9 @@ ui <- fluidPage( theme = shinytheme("united"),
                              
                              fluidRow(
                                  
-                                 column(width = 2),
+                                 column(width = 3),
                                  
-                                 column(width = 8,
+                                 column(width = 6,
                                     
 
                                     tags$p("While Turkmenistan, Uzbekistan, and Kazakhstan all have large amounts of oil and natural gas reserves, they also rely heavily on agricultural production. Uzbekistan and Turkmenistan produce a large share of the world’s cotton supply, which is a notoriously high-water use crop. To increase cotton production Uzbekistan and Turkmenistan have created large networks of canals to provide irrigation for cotton fields. Economic incentives and population growth have prompted the expansion of cotton production, the creation of more canals, and the use of more water every year, which has expediated the decline of the Aral Sea. "),
@@ -223,7 +223,7 @@ ui <- fluidPage( theme = shinytheme("united"),
                                     
                              ),
                              
-                             column(width = 2)
+                             column(width = 3)
                                     
                                     )
                                     
